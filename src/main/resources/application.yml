@@ -1,0 +1,24 @@
+spring:
+ datasource:
+  url: jdbc:mysql://root@localhost:3306/securecaptia
+  password: Vijay@2304
+  username: root
+ jpa:
+    database-platform: org.hibernate.dialect.MySQL8InnoDBDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+     ddl-auto: update
+    properties: 
+     hibernate: 
+      globally-quoted-indentifiers: true
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      format-sql: true
+ sql:
+  init:
+   mode: never
+  
+    
+ 
+  
+ 
